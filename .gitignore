@@ -25,6 +25,7 @@
 /web/vendor
 /web/core
 /web/modules/README.txt
+/web/modules/contrib
 /web/profiles/README.txt
 /web/sites/development.services.yml
 /web/sites/example.settings.local.php
@@ -60,3 +61,24 @@
 /drush
 /drupal.phar
 /drupal
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE stuff #
+/web/.ftpconfig
+.idea
+
+# Docksal settings ignore. #
+.docksal
+/web/sites/default/docksal.settings.local.php
+/web/sites/default/files_local
+
+/web/sites/settings.php
+/web/sites/settings.local.php
